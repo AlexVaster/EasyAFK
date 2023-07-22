@@ -1,0 +1,12 @@
+name: EasyAFK
+description: A small AFK plugin
+version: '${version}'
+main: org.av.easyafk.Main
+api-version: '1.20'
+commands:
+  afk:
+    description: Simple afk command
+    aliases:
+      - awayfromkeyboard
+      - away
+    usage: <command>
